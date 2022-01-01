@@ -1,12 +1,16 @@
 <template>
-  <Game />
+  <div>
+    <Dashboard/>
+    <Game />
+  </div>
 </template>
 
 <script>
-import Game from '@/components/Game'
-export default {
-  components: { Game }
-}
+  import Game from '@/components/Game'
+  import Dashboard from '@/components/Dashboard'
+  export default {
+    components: { Game, Dashboard }
+  }
 </script>
 
 <style lang="scss">

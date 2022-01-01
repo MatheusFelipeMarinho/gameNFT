@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.20.1",
+    "moralis": "0.0.178",
     "phaser": "^3.55.2",
     "vue": "^3.2.26"
   },
